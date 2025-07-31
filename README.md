@@ -46,3 +46,35 @@ python tetra.py status 2 in-progress
 python tetra.py status 2 done
 ```
 
+### Delete Task
+```bash
+python tetra.py delete 2
+```
+
+## 💻 Example Output 
+
+#### Add Task
+![Add Task!](assets image/output1.PNG "add task")
+
+#### Update Status
+![Status!](assets image/output3.PNG "status")
+
+#### List Tasks
+![List all task!](assets image/output4.PNG "List Task")
+
+## 🚀 Future Ideas (Contributors Welcome!)
+
+- Filters task by status or date
+- Add due dates or priorities
+- Export tasks to CSV file
+- GUI or web version using Flask or Thinker
+
+## 🐱‍🚀 Author
+
+### Haeder Ali
+
+**[GitHub](https://github.com/Masalee-hub)**    
+**[LinkedIn](https://www.linkedin.com/in/haederali/)**
+
+## Project source
+This is a project source from [roadmap.sh](https://roadmap.sh/projects/task-tracker)
