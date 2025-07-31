@@ -56,7 +56,7 @@ def update_status(task_id, new_status):
     data = load_tasks()
     for task in data['tasks']:
         if task['id'] == task_id:
-            task['status'] == new_status
+            task['status'] = new_status
             task['updated_at'] = current_time()
             save_tasks(data)
             print(f"Task {task_id} status update to '{new_status}'.")
