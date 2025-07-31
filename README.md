@@ -34,3 +34,15 @@ git clone https://github.com/masalee-dev/task-tracking-rdmp.git
  ```bash
 pyhton tetra.py add 'Add your task'
  ```
+
+### List All Tasks
+```bash
+python tetra.py list
+```
+
+### Update Task Status
+```bash
+python tetra.py status 2 in-progress
+python tetra.py status 2 done
+```
+
