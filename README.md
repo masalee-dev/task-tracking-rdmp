@@ -25,3 +25,12 @@ No external libraries needed - built with standard Python modules.
  ```bash
 git clone https://github.com/masalee-dev/task-tracking-rdmp.git
  ```
+
+---
+
+## ✅ Usage
+
+### Add Task
+ ```bash
+pyhton tetra.py add 'Add your task'
+ ```
